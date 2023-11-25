@@ -328,19 +328,20 @@ body {
   align-items: center;
   margin-top: 10px;
 }
+
 .about__icon {
-  width: 18px;
-  height: 18px;
+
   padding: 4px 3px;
-  font-size: 1rem;
+  font-size: 2rem;
   border: 1px solid #f55f8d;
   border-radius: 50%;
   color: #f55f8d;
   margin-right: 10px;
+  font-weight: 700;
 }
 
 .about__sub {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   color: var(--primary-color);
 }
 .about__btn {
@@ -655,7 +656,9 @@ body {
   background-size: cover;
   background-position: top center;
 }
-
+.blog__item:focus{
+  cursor:grab;
+}
 .blog__title {
   text-align: center;
 }
