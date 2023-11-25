@@ -625,9 +625,7 @@ body {
   background-size: cover;
   background-position: top center;
 }
-.blog__item:focus{
-  cursor:grab;
-}
+
 .blog__title {
   text-align: center;
 }
@@ -641,17 +639,19 @@ body {
   margin-top: 60px;
   display: flex;
 
-  gap: 20px;
 }
 .blog__item {
   position: relative;
-  width: 380px;
+  width: 380px !important;
   height: 478px;
   background: rgba(245, 95, 141, 0.1);
   border-radius: 6px;
   overflow: hidden;
+  cursor: pointer;
   /* flex-shrink: 1; */
+
 }
+
 .blog__img {
   width: 100%;
   object-fit: cover;
